@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador del clima</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./custom.js" defer></script>
+    <script src="https://kit.fontawesome.com/647dc82472.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="weather-content">
+        <h1>Buscador del clima</h1>
+        <img class="caracs" src="caracs.jpg" alt="imagen de Caracas">
+        <div class="result">
+            <i class="fa-regular fa-sun"></i>
+            <i class="fa-solid fa-temperature-half"></i>
+            <p>Agrega ciudad y pais</p>
+            <h4>Clima en Caracas</h4>
+            <h2>28°C</h2>
+            <p>Max: 28°C</p>
+            <p>Min: 15°C</p>
+        </div>
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" id="city" placeholder="Escribe tu ciudad...">
+            <select name="" id="country">
+                <option disabled selected value="">Selecciona el pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">Espana</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">Mexico</option>
+                <option value="PE">Peru</option>
+                <option value="VE">Venezuela</option>
+            </select>
+            <input type="submit" name="" id="" value="Get Weather">
+        </form>
+    </section>
+
+</body>
+</html>
