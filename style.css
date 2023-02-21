@@ -48,7 +48,7 @@ form {
     flex-direction: column;
 }
 
-form input[type="text"],form select, .caracs{
+form input[type="text"],form select {
     --white: linear-gradient(white,white);
     --gradient: linear-gradient(to right, #31cccc, #3b86de);
     border: solid 0.25rem transparent;
@@ -100,9 +100,3 @@ i {
     padding: 15px 0 15px;
     font-weight: 100;
 }
-
-.caracs {
-    height: 8rem;
-    
-}
-/*prueba cambio*/
